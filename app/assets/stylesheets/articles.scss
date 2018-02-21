@@ -1,0 +1,34 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.persistent-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 0.15px;
+}
+#create-article{
+  margin-right: 10px;
+  text-decoration: none;
+  color: gray;
+  &:hover{
+    color: #565555;
+  }
+
+}
+#logo{
+  margin-left: 10px;
+  text-decoration: none;
+  color: gray;
+  &:hover{
+    color: #565555;
+  }
+}
+h2{
+  font-size: 28px;
+}
+
